@@ -1,0 +1,199 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Link),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field ([CHART] Date of First Response),Status Category
+As a user I want to register myself so that I can subscribe the website,MO-1,10000,Story,Blocked,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 10:56 AM,17/Feb/22 3:08 PM,21/Feb/22 9:54 AM,,,0,"Requirements:
+
+Following are mandatory fields:
+
+Name
+
+Email
+
+User name
+
+Password
+
+Confirm password
+
+Phone
+
+Following fields can accept mix of alphabets, numbers and special characters of maximum 30 length:
+
+Email
+
+User name
+
+Password
+
+Confirm password
+
+Name Field should only accept alphabets of maximum 100 characters
+
+Phone field should only accept numbers of 10 digit except country code",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,,MO-34,MO-8,,,,,,,,,,,{},,,,0|hzzzzz:,,Signup sprint,,,,,,,,In Progress
+Verify the name field with special characters,MO-2,10001,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:22 PM,17/Feb/22 11:27 AM,,,0,"Acceptance criteria:
+
+Name field should contain alphabets only",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00007:,,Signup sprint,,,,,,,,In Progress
+Verify the name field with blank value,MO-3,10002,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,18/Feb/22 2:43 PM,18/Feb/22 2:58 PM,17/Feb/22 3:05 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0000f:,,Signup sprint,,,,,,,,Done
+Verify the name field with digits,MO-4,10003,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:22 PM,17/Feb/22 2:07 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0000n:,,Signup sprint,,,,,,,,In Progress
+Verify the name field with more than 100 characters,MO-5,10004,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:22 PM,18/Feb/22 3:28 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0000v:,,Signup sprint,,,,,,,,In Progress
+Verify the name field with asterisk sign (*),MO-6,10005,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:06 PM,21/Feb/22 9:59 AM,17/Feb/22 3:06 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00013:,,Signup sprint,,,,,,,,Done
+Verify the name field with input type,MO-7,10006,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:06 PM,21/Feb/22 9:59 AM,17/Feb/22 3:06 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0001b:,,Signup sprint,,,,,,,,Done
+Verify the name field with  white space,MO-8,10007,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:22 PM,17/Feb/22 2:27 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0001j:,,Signup sprint,,,,,,,,In Progress
+Verify the name field with UPPER CASE,MO-9,10008,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:03 PM,21/Feb/22 9:59 AM,17/Feb/22 3:03 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0001r:,,Signup sprint,,,,,,,,Done
+Verify the name field with lower case,MO-10,10009,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:04 PM,21/Feb/22 9:59 AM,17/Feb/22 3:04 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0001z:,,Signup sprint,,,,,,,,Done
+Verify the default value of name field,MO-11,10010,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:05 PM,17/Feb/22 11:52 AM,17/Feb/22 3:05 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00027:,,Signup sprint,,,,,,,,Done
+"Verify the Email fomat as ""example@xyz.com""",MO-12,10011,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:06 PM,21/Feb/22 9:59 AM,17/Feb/22 3:06 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0002f:,,Signup sprint,,,,,,,,Done
+Verify the email field with blank value,MO-13,10012,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:06 PM,21/Feb/22 9:59 AM,17/Feb/22 3:06 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0002n:,,Signup sprint,,,,,,,,Done
+Verify the email field with more than 30 character,MO-14,10013,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:23 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0002v:,,Signup sprint,,,,,,,,In Progress
+Verify the email field with no space,MO-15,10014,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:07 PM,21/Feb/22 9:59 AM,17/Feb/22 3:07 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00033:,,Signup sprint,,,,,,,,Done
+Verify the email field with blank value,MO-16,10015,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:07 PM,21/Feb/22 9:59 AM,17/Feb/22 3:07 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0003b:,,Signup sprint,,,,,,,,Done
+Verify the  email field with asterisk(*) sign,MO-17,10016,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:07 PM,21/Feb/22 9:59 AM,17/Feb/22 3:07 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0003j:,,Signup sprint,,,,,,,,Done
+Verify the username with more than 30 characters. ,MO-18,10017,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:23 PM,17/Feb/22 2:47 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0003r:,,Signup sprint,,,,,,,,In Progress
+Verify the username field with blank value. ,MO-19,10018,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:04 PM,17/Feb/22 11:45 AM,17/Feb/22 3:04 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0003z:,,Signup sprint,,,,,,,,Done
+Verify the username field with special character,MO-20,10019,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:06 PM,17/Feb/22 11:56 AM,17/Feb/22 3:06 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00047:,,Signup sprint,,,,,,,,Done
+Verify the username field with white space. ,MO-21,10020,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:58 AM,17/Feb/22 3:22 PM,17/Feb/22 11:54 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0004f:,,Signup sprint,,,,,,,,In Progress
+Verify the user name with less than 2 character,MO-22,10021,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:07 PM,21/Feb/22 9:59 AM,17/Feb/22 3:07 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0004n:,,Signup sprint,,,,,,,,Done
+Verify the phone no. with digit,MO-23,10022,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:05 PM,21/Feb/22 9:59 AM,17/Feb/22 3:05 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0004v:,,Signup sprint,,,,,,,,Done
+Verify the phone no. field with alphabets. ,MO-24,10023,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:23 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00053:,,Signup sprint,,,,,,,,In Progress
+Verify the phone no. field with Special character. ,MO-25,10024,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:22 PM,17/Feb/22 11:31 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0005b:,,Signup sprint,,,,,,,,In Progress
+Verify the length of value of phone no. field with more than 10 digits accept country code,MO-26,10025,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:22 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0005j:,,Signup sprint,,,,,,,,In Progress
+Verify the length of value of phone no. with less than 10 digits. ,MO-27,10026,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:23 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0005r:,,Signup sprint,,,,,,,,In Progress
+Verify the phone no. field with white space.,MO-28,10027,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:23 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0005z:,,Signup sprint,,,,,,,,In Progress
+Verify the phone no. field with blank. ,MO-29,10028,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:23 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00067:,,Signup sprint,,,,,,,,In Progress
+Verify the phone no. field with starting digit <6,MO-30,10029,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:23 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0006f:,,Signup sprint,,,,,,,,In Progress
+"Verify the password field with combination of special chracter, alphabets and numers",MO-31,10030,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:05 PM,21/Feb/22 9:59 AM,17/Feb/22 3:05 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0006n:,,Signup sprint,,,,,,,,Done
+Verify the password field with less than 8 characters,MO-32,10031,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:23 PM,17/Feb/22 2:45 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0006v:,,Signup sprint,,,,,,,,In Progress
+Varify the password field with password type,MO-33,10032,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:05 PM,21/Feb/22 9:59 AM,17/Feb/22 3:05 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00073:,,Signup sprint,,,,,,,,Done
+verify the movement of strength of bar in password field,MO-34,10033,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:03 PM,17/Feb/22 12:57 PM,17/Feb/22 3:03 PM,,0,"Acceptance criteria:
+
+Strength bar should move when according to password strength",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0007b:,,Signup sprint,,,,,,,,Done
+Verify the password field with blank value,MO-35,10034,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:07 PM,21/Feb/22 9:59 AM,17/Feb/22 3:07 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0007j:,,Signup sprint,,,,,,,,Done
+verify the password field with white space,MO-36,10035,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:23 PM,21/Feb/22 9:59 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0007r:,,Signup sprint,,,,,,,,In Progress
+Verify the confirm password field with missmatched password,MO-37,10036,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:06 PM,21/Feb/22 9:59 AM,17/Feb/22 3:06 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i0007z:,,Signup sprint,,,,,,,,Done
+Verify the confirm password field with blank value,MO-38,10037,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 10:59 AM,17/Feb/22 3:12 PM,17/Feb/22 3:31 PM,17/Feb/22 3:06 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-1,,,,,,,,,,,,{},,,,0|i00081:,,Signup sprint,,,,,,,,Done
+these fields are accepting special character,MO-39,10038,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 11:32 AM,17/Feb/22 3:12 PM,18/Feb/22 3:42 PM,,,0,"Fields name:
+
+* phone number
+* name",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-1,MO-25,MO-2,,,,,,,,,,,{},,,,0|i00083:,,Signup sprint,,,,,,,,To Do
+Field is accepting white space,MO-40,10039,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 12:21 PM,17/Feb/22 3:11 PM,18/Feb/22 4:59 PM,,,0,"Fields are:
+
+* Name
+* phone number
+* password",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-1,MO-8,MO-28,MO-36,MO-21,MO-15,,17/Feb/22 12:20 PM;ug:27035544-4629-4627-98c1-1612b2250888;image-20220217-065052.png;https://ibm16.atlassian.net/secure/attachment/10001/image-20220217-065052.png,,,,,,{},,,,0|i0008b:,,Signup sprint,,,,,,,,To Do
+Phone number field is accepting alphabets,MO-42,10041,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 12:55 PM,18/Feb/22 4:58 PM,18/Feb/22 4:57 PM,,,0,"description: Phone number should only accept numeric data type
+
+*Steps to reproduce:*
+
+i) Navigate to the [http://elearningm1.upskills.in/|http://elearningm1.upskills.in/|smart-link]
+
+ii) Input “abc1234”
+
+iii) click on signup button
+
+*Expected result:*
+
+Validation message should be appeared
+
+*Actual result:*
+
+Alphabets are getting accepted",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-1,MO-24,,,,,,,,,,,,{},,,,0|i0008d:,,Signup sprint,,,,,,,,To Do
+Name field accepting digit,MO-43,10042,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 2:08 PM,18/Feb/22 4:40 PM,18/Feb/22 4:56 PM,,,0,"*Steps to reproduce:*
+
+i) Navigate to the [http://elearningm1.upskills.in/|http://elearningm1.upskills.in/|smart-link]
+
+ii) Input digits in name field
+
+iii) click on signup button
+
+*Expected result:*
+
+Validation message should be appeared
+
+*Actual result:*
+
+digits are getting accepted",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-1,MO-4,,,,,,,,,,,,{},,,,0|i0008d:9,,Signup sprint,,,,,,,,To Do
+length of the field is not in range,MO-44,10043,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 2:11 PM,18/Feb/22 4:36 PM,21/Feb/22 9:52 AM,,,0,"Bug associaed with the following fields:
+
+* phone
+* email
+* name
+* password
+
+*Steps to reproduce:*
+
+i) Navigate to the [http://elearningm1.upskills.in/|http://elearningm1.upskills.in/|smart-link]
+
+ii) Input the values out of range
+
+iii) click on signup button
+
+*Expected result:*
+
+Validation message should be appeared.
+
+*Actual result:*
+
+invalid values are getting accepted.",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-1,MO-27,MO-32,MO-5,MO-26,MO-14,MO-18,,,,,,,{},,,,0|i0008d:i,,Signup sprint,,,,,,,,To Do
+Mandatory fields are accepting blank values,MO-45,10044,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 2:37 PM,18/Feb/22 4:07 PM,21/Feb/22 9:52 AM,,,0,"
+
+*Steps to reproduce:*
+
+i) Navigate to the [http://elearningm1.upskills.in/|http://elearningm1.upskills.in/|smart-link]
+
+ii) Leave the field blank.
+
+iii) click to signup button
+
+*Expected result:*
+
+validation message should be appeared
+
+*Actual result:*
+
+blank value is accepted by phone no. field.",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-1,MO-29,,,,,,,,,,,,{},,,,0|i0008e:i,,Signup sprint,,,,,,,,To Do
+accepting the starting digit of phone number <6.,MO-46,10045,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 2:41 PM,21/Feb/22 9:53 AM,21/Feb/22 9:52 AM,,,0,"*Steps to reproduce:*
+
+i) Navigate to the [http://elearningm1.upskills.in/|http://elearningm1.upskills.in/]
+
+ii) Input ‘5432617892’
+
+iii) click on signup button
+
+*Expected result:*
+
+Validation message should be appeared.
+
+*Actual result:*
+
+phone no. starting with digit <6 is getting accepted",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-1,MO-30,,,,,,,,,,,,{},,,,0|i0008e:r,,Signup sprint,,,,,,,,To Do
+As a registered user I want to subscribe the courses,MO-47,10046,Story,Blocked,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,17/Feb/22 4:35 PM,18/Feb/22 2:33 PM,18/Feb/22 2:29 PM,,,0,"Requirements:
+
+* Fetched result should be related with search value.
+* Result should be fetched category wise.
+* Each row should have 3 course.
+* User can subscribe to the course with subscribe button.
+* user should able to rate the course.",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0008n:,,Signup sprint,,,,,,,,In Progress
+Verify the search bar with blank value,MO-48,10047,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:32 PM,18/Feb/22 2:29 PM,18/Feb/22 2:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0008v:,,Signup sprint,,,,,,,,Done
+Verify the field with case sensitivity,MO-49,10048,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:32 PM,18/Feb/22 2:29 PM,18/Feb/22 2:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i00093:,,Signup sprint,,,,,,,,Done
+Verify the fetched result with search value,MO-50,10049,Test,In Progress,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:32 PM,18/Feb/22 2:29 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009b:,,Signup sprint,,,,,,,,In Progress
+verify the result with category wise search,MO-51,10050,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:58 PM,18/Feb/22 2:58 PM,18/Feb/22 2:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009f:,,Signup sprint,,,,,,,,Done
+verify the dropdown property of category search,MO-52,10051,Test,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:59 PM,18/Feb/22 3:13 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009h:,,Signup sprint,,,,,,,,To Do
+verify the course cards no. in one row,MO-53,10052,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:35 PM,18/Feb/22 2:35 PM,18/Feb/22 2:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009j:,,Signup sprint,,,,,,,,Done
+verify the hover property of course card,MO-54,10053,Test,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:59 PM,18/Feb/22 2:59 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009k:,,Signup sprint,,,,,,,,To Do
+verify the subscribe button with click property,MO-55,10054,Test,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:58 PM,18/Feb/22 2:58 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009l:i,,Signup sprint,,,,,,,,To Do
+verify the nevigation of pagination button,MO-56,10055,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:58 PM,18/Feb/22 2:58 PM,18/Feb/22 2:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009m:,,Signup sprint,,,,,,,,Done
+verify the pop-up after click on I button,MO-57,10056,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:58 PM,18/Feb/22 3:14 PM,18/Feb/22 2:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009m:i,,Signup sprint,,,,,,,,Done
+verify the pop-up disapear property,MO-58,10057,Test,Done,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,Done,,,divya suman,620dd6bb07f51e00694431d1,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:04 AM,18/Feb/22 2:36 PM,18/Feb/22 2:36 PM,18/Feb/22 2:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,MO-47,,,,,,,,,,,,{},,,,0|i0009n:,,Signup sprint,,,,,,,,Done
+fetched result is not related with searched substring,MO-59,10058,Bug,To Do,MO,My Organization,software,divya suman,620dd6bb07f51e00694431d1,,Medium,,,,divya suman,620dd6bb07f51e00694431d1,divya suman,620dd6bb07f51e00694431d1,18/Feb/22 2:17 PM,18/Feb/22 3:58 PM,18/Feb/22 3:59 PM,,,0,"*Steps to reproduce:*
+
+i) Navigate to the [http://elearningm1.upskills.in/|http://elearningm1.upskills.in/|smart-link] 
+
+ii) Click on course catalog
+
+iii) input value in search bar
+
+*Expected result:*
+
+Only those course should be fetched which is related to sub-string.
+
+*Actual result:*
+
+Fetched result is not related with search value.",,divya suman,620dd6bb07f51e00694431d1,,,,,,,,,MO-47,MO-50,,,,,,,,,,,,{},,,,0|i0009r:,,Signup sprint,,,,,,,,To Do
